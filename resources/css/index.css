@@ -1,0 +1,93 @@
+* {
+    
+    color: white;
+}
+
+body {
+    background-color: #17110d;
+}
+
+.logo {
+    width: 250px;
+    background: #211914;
+}
+
+.navbar {
+    width: 100%       
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #211914;
+    border-bottom: 1px solid seashell;
+}
+
+li {
+    margin-right: 30px;
+    list-style: none;
+    display: inline-block;   
+    background: #211914;
+    font-size: 25px;
+}
+
+li a {
+    font-weight: bold;
+    margin-right: 25px;
+    background: #211914;
+}
+
+h1 {
+    text-align: center;
+}
+
+.background {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.paragraph {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+.tea-monthly {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.tea {
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.banner-card {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-card .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+
+.details {
+    text-align: center;
+}
